@@ -1,0 +1,63 @@
+#Loader {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+  position: absolute;
+  top: 0;
+  z-index: 20000;
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dona-loader-container{
+    height: 510px;
+    width: 510px;
+
+    .dona-loader-title-groupe{
+      flex-direction: column;
+      .dona-h-1{
+         height: 52px;
+         width: 392px;
+         color: #FFF;
+         font-family: Arial;
+         font-size: 40px;
+         line-height: 45px;
+         text-align: center;
+         text-transform: uppercase;
+      }
+
+      .dona-h-2{
+        height: 54px;
+        width: 451px;
+        color: #FFF;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+      }
+    }
+    .dona-circle {
+      box-sizing: border-box;
+      height: 510px;
+      width: 510px;
+      border: 8px solid gray;
+      border-left: 8px solid #F00;
+      border-radius: 80000px;
+      }
+      .dona-circle-loader{
+          animation: spin 2s linear infinite;
+          position: absolute;
+      }
+  }
+  @keyframes spin{
+    100%{
+      transform: rotate(360deg);
+      filter: hue-rotate(360deg);
+    }
+  }
+}

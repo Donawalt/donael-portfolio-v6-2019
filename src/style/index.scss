@@ -1,0 +1,201 @@
+section.project-wrapper{
+  display: inline-flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+      .fiche{
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        margin: 0px;
+        overflow: hidden;
+        top: 0;
+        z-index: 1;
+
+        .dona-infos-project{
+          position: absolute;
+          top: 0;
+          height: 100vh;
+          width: 100vw;
+          z-index: 5000;
+
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          .dona-infos-title-container{
+            display: flex;
+            /* align-content: center; */
+            justify-content: center;
+
+            h3{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 100px;
+              span{
+                overflow: hidden;
+                p{
+                  margin:0;
+                  transform: translate(0,100%);
+                }
+              }
+            }
+          }
+
+          .dona-infos-container{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+
+                            .arianne{
+                              display: flex;
+                              justify-content: center;
+                              padding-top: 50px;
+                              span{
+                                font-family: sans-serif;
+                              }
+                              .num{
+                                height: fit-content;
+                                overflow: hidden;
+                                p{
+                                 margin: 0;
+                                }
+                              }
+                              .bar{
+                                margin-left: 5px;
+                                margin-right: 5px;
+                                margin-top: 5px;
+                                height: 0px;
+                                width:100px;
+                                border: 2px solid gray;
+                              }
+                            }
+            .group-voir{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              span{
+                border: 5px crimson solid;
+                padding: 50px;
+                border-radius: 146px;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #00000066;
+
+                a{
+                  color: white;
+                  text-align: center;
+                  font-weight: bold;
+                }
+              }
+            }
+
+            .group-info{
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+
+              span{
+                text-align: end;
+                color: crimson;
+                font-family: sans-serif;
+                .category{
+                  font-weight: bold;
+                  margin-bottom: 0;
+                }
+
+                .date{
+                  margin-top: 0;
+                  margin-bottom: 2em;
+                }
+              }
+            }
+          }
+
+        }
+        .background_thumbnail{
+          position: relative;
+          height: 100vh;
+          width: 100vw;
+          .dona-circle-container {
+            position: absolute;
+            z-index: 500;
+            height: 100vh;
+            width: 100vw;
+            align-items: center;
+            display: flex;
+            .dona-circle {
+              box-sizing: border-box;
+              height: 510px;
+              width: 510px;
+              border-radius: 80000px;
+              z-index: 200;
+              margin: auto;
+            }
+          }
+          .backgroundFeaturedImage{
+            position: absolute;
+            z-index: 400;
+            height: 100vh;
+            width: 100vw;
+            transform: translate(0%,-12%);
+            .featuredImage{
+              filter: grayscale(100%);
+              transform: scale(1.6);
+              transition: 300ms;
+            }
+          }
+        }
+      }
+
+
+      .ficheEnter {
+        z-index: 600;
+        .background_thumbnail{
+          opacity: 1;
+          transition: 500ms;
+        }
+      }
+      .ficheShow {
+        z-index: 2000;
+      }
+      .ficheOut {
+        z-index: 2000;
+        .background_thumbnail{
+          opacity: 0;
+          transition: 500ms;
+        }
+      }
+
+    }
+
+      .black-mode {
+          .dona-infos-title-container{
+            h3{
+              color: white;
+            }
+          }
+          .dona-circle-container{
+            background-color: #0000007a;
+            .dona-circle{
+              border: 8px solid #f00;
+            }
+          }
+      }
+
+      .white-mode {
+        .dona-infos-title-container{
+          h3{
+            color: black;
+          }
+        }
+        .dona-circle-container{
+          background-color: #ffffffbf;
+          .dona-circle{
+            border: 8px solid #f00;
+          }
+        }
+      }

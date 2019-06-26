@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden!important;
+  }
+.Post{
+  .header-project{
+    .titleWrapper{
+      height: fit-content;
+      overflow: hidden;
+      position: absolute;
+      z-index: 800;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: -5vh;
+      h1{
+        font-size: 8em;
+        color: white;
+      }
+    }
+    .background_thumbnail{
+      clip-path: circle(270px);
+      position: relative;
+      height: 90vh;
+      width: 100vw;
+      .dona-circle-container {
+        position: absolute;
+        z-index: 500;
+        height: 90vh;
+        width: 100vw;
+        align-items: center;
+        display: flex;
+        .dona-circle {
+          box-sizing: border-box;
+          height: 510px;
+          width: 510px;
+          border-radius: 80000px;
+          z-index: 100;
+          margin: auto;
+          border-color: gray;
+        }
+      }
+      .featuredImage{
+        transition: 300ms;
+      }
+    }
+  }
+  .content-project{
+    width: 80vw;
+    margin: auto;
+  }
+  .suggestion-project{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .nextLink{
+    font-size: 7em;
+    font-family: serif;
+    text-transform: uppercase;
+    color: lightgray;
+    transition: 500ms;
+    &:hover{
+      color: white;
+      transition: 500ms;
+      font-size: 7.2em;
+    }
+    }
+  }
+}
+
+.black-mode{
+  .header-project{
+    h1{
+      color: white;
+    }
+  }
+
+  .content-project{
+    font-family: sans-serif;
+      #BlogPost>p{
+        width:75vw;
+        margin: auto;;
+      }
+
+      blockquote{
+        color: grey !important;
+        border-left : solid 4px grey;
+        margin-top: 20px;
+        margin-inline-start: 0px;
+        padding-inline-start: 10px;
+        font-weight: bold;
+      }
+      blockquote p {
+        color: grey !important;
+      }
+      #aPost{
+        width: 75vw;
+        margin: auto;
+        color: white;
+      }
+      #aPostsl{
+        color: white;
+      }
+      h1{
+        width: 75vw;
+        margin: auto;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        text-transform: uppercase;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      h2{
+        margin-top: 1.95em;
+      }
+      hr{
+        color: transparent;
+        border-color: transparent;
+        height: 50px;
+      }
+
+      .gatsby-resp-iframe-wrapper{
+        margin-top: 20px;
+      }
+  }
+
+
+}
+.white-mode{
+  .header-project{
+    h1{
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+#Menu{
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+  position: fixed;
+  top: 0;
+  z-index: -10;
+  &.is-active-menu{
+    z-index: 5000;
+    opacity: 1;
+    transition: 500ms;
+    nav{
+
+    }
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dona-loader-container{
+    height: 510px;
+    width: 510px;
+
+    .dona-loader-title-groupe{
+      flex-direction: column;
+      .dona-h-1{
+         height: 52px;
+         width: 392px;
+         color: #FFF;
+         font-family: Arial;
+         font-size: 40px;
+         line-height: 45px;
+         text-align: center;
+         text-transform: uppercase;
+      }
+
+      .dona-h-2{
+        height: 54px;
+        width: 451px;
+        color: #FFF;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+      }
+    }
+    .dona-circle {
+      box-sizing: border-box;
+      height: 510px;
+      width: 510px;
+      border: 8px solid #780000;
+      border-radius: 80000px;
+
+      nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+          font-size: 4em;
+          text-transform: uppercase;
+          font-weight: bold;
+          transition: 250ms;
+        }
+        a:hover{
+          color: crimson;
+          transition: 250ms;
+          transform: scale(1.1) rotate(1deg);
+        }
+      }
+      }
+}
+
+}
+
+.black-mode{
+  #Menu{
+    background-color: black;
+  }
+}
+.white-mode{
+  #Menu{
+    background-color: white;
+  }
+}

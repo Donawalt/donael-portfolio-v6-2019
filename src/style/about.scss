@@ -1,0 +1,62 @@
+.aboutSection{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  .portraitWrapper{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    .portraitPicture{
+      transform: rotate(-90deg);
+      height: 110vh;
+      filter: grayscale(100%);
+      transition: 1000ms;
+      &:hover{
+        transform: rotate(-85deg) scale(1.1);
+        transition: 2000ms;
+        filter: grayscale(10%);
+      }
+    }
+  }
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    h1{
+      font-size: 6em;
+      text-transform: uppercase;
+      font-family: serif;
+      color: white;
+      .h1Wrapper{
+        height: fit-content;
+        overflow: hidden;
+        p{
+          margin: 10px;
+          margin-top: 5px;
+        }
+      }
+      div:nth-child(1){
+        font-size: 0.75em;
+        }
+      div:nth-child(2){
+        font-family: sans-serif;
+        }
+      }
+      .intro{
+        font-size: 2em;
+        text-align: justify;
+        font-family: sans-serif;
+      }
+    }
+  }
+
+  .white-mode{
+    article{
+      h1{
+        color: black;
+      }
+    }
+  }

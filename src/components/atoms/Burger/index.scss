@@ -1,0 +1,22 @@
+$hamburger-padding-x           : 0px ;
+$hamburger-padding-y           : 0px ;
+$hamburger-layer-width         : 20px ;
+$hamburger-layer-height        : 2px ;
+$hamburger-layer-spacing       : 4px ;
+
+
+.black-mode{
+  .hamburger-inner,
+  .hamburger-inner::after,
+  .hamburger-inner::before{
+    background-color: white;
+  }
+
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::after,
+  .hamburger.is-active .hamburger-inner::before{
+    background-color: white;
+  }
+}
+
+@import "~hamburgers/_sass/hamburgers/hamburgers";
