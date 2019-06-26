@@ -11,35 +11,35 @@ class Checker extends React.Component {
     //*document.querySelector('body').setAttribute('class', 'black-mode');
     //* Pensez à donner un style par défaut via css au pages globales
     //**
-    document.querySelector('body').setAttribute('class', 'black-mode');
     this.handleChange();
   }
 
 
   handleChange(){
+    if(typeof document !== "undefined"){
+      if(this.state.check === true){
+          document.querySelector('body').removeAttribute('class');
+          this.setState({
+            check : false,
+          });
+          document.querySelector('body').setAttribute('class', 'black-mode');
+      }
 
-    if(this.state.check === true){
+      else if (this.state.check === false) {
         document.querySelector('body').removeAttribute('class');
         this.setState({
-          check : false,
+          check : true,
         });
-        document.querySelector('body').setAttribute('class', 'black-mode');
+        document.querySelector('body').setAttribute('class', 'white-mode');
+      }
+      else {
+        if (this.state.check = false) {
+          this.setState({
+            check : '',
+          });
+      }
     }
-
-    else if (this.state.check === false) {
-      document.querySelector('body').removeAttribute('class');
-      this.setState({
-        check : true,
-      });
-      document.querySelector('body').setAttribute('class', 'white-mode');
     }
-    else {
-      if (this.state.check = false) {
-        this.setState({
-          check : '',
-        });
-    }
-  }
 }
 
   render(){
