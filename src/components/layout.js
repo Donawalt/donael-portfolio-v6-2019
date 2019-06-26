@@ -24,7 +24,6 @@ class Layout extends React.Component {
       mode: 'black',
       lang: 'fr'
     };
-    this.verifyLang();
 
 
   }
