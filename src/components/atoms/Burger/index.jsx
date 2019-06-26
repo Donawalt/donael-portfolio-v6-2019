@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import {TweenLite} from 'gsap'
 
 import './index.scss';
