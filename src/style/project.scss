@@ -72,3 +72,19 @@
     }
   }
 }
+
+//Responsive
+@media all and (max-width: 1024px) {   }
+@media all and (max-width: 839px) {
+  .sectionProject{
+    .contentProjectWrapper{
+      width: 90vw;
+      grid-template-columns: auto;
+
+      figure:nth-child(2n){
+        margin-top: auto;
+      }
+    }
+  }
+}
+@media all and (max-width: 480px) {   }

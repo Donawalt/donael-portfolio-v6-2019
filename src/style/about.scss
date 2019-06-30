@@ -1,6 +1,7 @@
 .aboutSection{
   display: grid;
   grid-template-columns: 1fr 2fr;
+  height: 100vh;
   .portraitWrapper{
     overflow: hidden;
     display: flex;
@@ -60,3 +61,35 @@
       }
     }
   }
+
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //Responsive
+  @media all and (max-width: 1024px) {
+    .aboutSection{
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 2fr;
+
+      .portraitWrapper{
+        width: 100vw;
+        height: 33.33333333333333333vh;
+        .portraitPicture{
+          width: 150vw;
+          height: auto;
+        }
+      }
+
+      article{
+        width: 90%;
+
+        h1{
+          font-size: 3em;
+        }
+
+        .intro{
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+  @media all and (max-width: 839px) {   }
+  @media all and (max-width: 480px) {   }
