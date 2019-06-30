@@ -5,15 +5,33 @@ class Checker extends React.Component {
     super(props);
 
     this.state = {
-      check : 'true',
+      check : '',
     }
     //** Ligne à  supprimer pour le résultat finale
     //*document.querySelector('body').setAttribute('class', 'black-mode');
     //* Pensez à donner un style par défaut via css au pages globales
     //**
-    this.handleChange();
   }
 
+  componentDidMount(){
+    this.init();
+  }
+
+  init(){
+      console.log(document.querySelector('body').classList);
+    if(typeof document !== "undefined"){
+      if(document.querySelector('body').classList.contains("white-mode")){
+        console.log(document.querySelector('body').classList.contains("white-mode"));
+        this.setState({
+          check : true,
+        });
+      }else {
+        this.setState({
+          check : false,
+        });
+      }
+    }
+  }
 
   handleChange(){
     if(typeof document !== "undefined"){
