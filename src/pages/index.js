@@ -129,7 +129,7 @@ class BlogIndex extends Component {
            figure[diapoNum].classList.add("ficheOut");
            TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:100});
            TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:100});
-           figure[nbProject-1].classList.add("ficheEnter");
+           figure[diapoNum-1].classList.add("ficheEnter");
            swippable=false;
            setTimeout(()=>{
              swippable=false;

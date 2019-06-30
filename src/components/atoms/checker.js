@@ -18,10 +18,8 @@ class Checker extends React.Component {
   }
 
   init(){
-      console.log(document.querySelector('body').classList);
     if(typeof document !== "undefined"){
       if(document.querySelector('body').classList.contains("white-mode")){
-        console.log(document.querySelector('body').classList.contains("white-mode"));
         this.setState({
           check : true,
         });

@@ -31,7 +31,6 @@ class Layout extends React.Component {
   componentDidMount(){
     let cursor = document.querySelector('#cursor');
     let links = document.querySelectorAll('a');
-    console.log(links);
     TweenLite.set(cursor, {borderColor: "red", height: "35px", width: "35px", backgroundColor:"transparent"});
     //////////////////////////////////////////////////////////////////////////////
     document.addEventListener('click',()=>{
