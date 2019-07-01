@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
       <Layout>
         <section className="aboutSection">
           <div className="portraitWrapper">
-            <img src={'portrait.jpg'} className="portraitPicture"></img>
+            <img src={'portrait.jpg'} className="portraitPicture" loading="lazy"></img>
           </div>
           <article className="article">
             <h1>
