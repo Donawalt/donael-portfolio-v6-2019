@@ -214,6 +214,9 @@ section.project-wrapper{
         }
       }
       @media all and (max-width: 839px) {
+        section.project-wrapper .fiche .background_thumbnail .dona-circle-container .dona-circle{
+          display: none;
+        }
         section.project-wrapper .fiche {
         .dona-infos-project {
           grid-template-columns: 1fr;
@@ -298,5 +301,6 @@ section.project-wrapper{
           align-items: flex-end;
           margin-bottom: 4.5em;
         }
+
 
       }
