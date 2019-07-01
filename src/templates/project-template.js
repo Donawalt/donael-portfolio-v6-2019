@@ -39,7 +39,7 @@ class ProjectPostTemplate extends React.Component {
     return (
         <Layout>
         <section className="Post" id="BlogPost">
-        <SEO title={post.frontmatter.title} lang="fr"/>
+        <SEO title={post.frontmatter.title} lang="fr" description={post.html}/>
         <div className="header-project">
           <div className="titleWrapper"><h1 className="titleProject">{post.frontmatter.title}</h1></div>
           <div className="background_thumbnail">
