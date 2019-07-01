@@ -13,6 +13,8 @@ body{
       left: 50%;
       transform: translate(-50%, -50%);
       margin-top: -5vh;
+      width: 80%;
+      text-align: center;
       h1{
         font-size: 8em;
       }
@@ -152,7 +154,7 @@ body{
 }
 @media all and (max-width: 839px) {
   .Post .header-project .titleWrapper h1{
-    font-size: 4em;
+    font-size: 3em;
   }
   .Post .header-project .background_thumbnail .dona-circle-container .dona-circle{
     display: none;
