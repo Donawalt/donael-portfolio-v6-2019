@@ -203,6 +203,9 @@ class BlogIndex extends Component {
         <Loader/>
         <Helmet>
           <title>Portfolio | Donaël Walter</title>
+          <meta name="description">
+            A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End ...
+          </meta>
         </Helmet>
         <Layout>
         <section className="project-wrapper">
