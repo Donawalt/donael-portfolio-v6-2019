@@ -163,5 +163,9 @@ body{
   .Post .content-project{
     width: 90vw;
   }
+
+  .Post .suggestion-project .nextLink{
+    font-size: 2em;
+  }
 }
 @media all and (max-width: 480px) {   }
