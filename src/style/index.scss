@@ -280,4 +280,23 @@ section.project-wrapper{
          display: none;
        }
       }
-      @media all and (max-width: 480px) {}
+      @media all and (max-width: 480px) {
+        section.project-wrapper .fiche .dona-infos-project .dona-infos-title-container h3{
+          font-size: 3em;
+        }
+        section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-info span{
+          margin-bottom: 10px;
+          margin-right: 3px;
+        }
+        section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-voir span{
+          padding: 10px;
+          font-size: 0.8em;
+        }
+        section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-voir{
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          margin-bottom: 4.5em;
+        }
+
+      }

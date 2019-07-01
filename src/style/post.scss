@@ -145,6 +145,23 @@ body{
 }
 
 //Responsive
-@media all and (max-width: 1024px) {   }
-@media all and (max-width: 839px) {   }
+@media all and (max-width: 1024px) {
+  .Post .content-project #aPost{
+    width: 85vw;
+  }
+}
+@media all and (max-width: 839px) {
+  .Post .header-project .titleWrapper h1{
+    font-size: 4em;
+  }
+  .Post .header-project .background_thumbnail .dona-circle-container .dona-circle{
+    display: none;
+  }
+  #BlogPost > div.header-project > div.background_thumbnail > div:nth-child(2) > div{
+    height: 90vh;
+  }
+  .Post .content-project{
+    width: 90vw;
+  }
+}
 @media all and (max-width: 480px) {   }
