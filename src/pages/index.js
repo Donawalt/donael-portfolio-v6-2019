@@ -221,7 +221,7 @@ class BlogIndex extends Component {
           }, false)
       }
       //USAGE
-      var el = document.getElementById('swipezone');
+      var el = document.querySelector('.projectWrapper');
       swipedetect(el, function(swipedir){
           // swipedir contains either "none", "left", "right", "top", or "down"
           if(swippable === true){
