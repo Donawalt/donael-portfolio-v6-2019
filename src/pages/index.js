@@ -203,9 +203,7 @@ class BlogIndex extends Component {
         <Loader/>
         <Helmet>
           <title>Portfolio | Donaël Walter</title>
-          <meta name="description">
-            A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End ...
-          </meta>
+          <meta name="description" content="A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End ..."/>
         </Helmet>
         <Layout>
         <section className="project-wrapper">
@@ -220,7 +218,7 @@ class BlogIndex extends Component {
                 </h3>
               </div>
               <div className="dona-infos-container">
-                <div className="arrow arianne"><span className="precB">⬅</span><span className="suivB">➡</span></div>
+                <div className="arrow arianne"><span className="precB">{'<'}</span><span className="suivB">{'>'}</span></div>
                 <div className="arianne" id="arianne"><span className="num"><p>{index+1}</p></span><div className="bar"></div><span className="total"></span></div>
                 <div className="group-voir">
                   <span className={"link-project-"+index+' '+'group-1'}>
