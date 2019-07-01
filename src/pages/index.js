@@ -178,6 +178,7 @@ class BlogIndex extends Component {
 
           var touchsurface = el,
           swipedir,
+          dist,
           startX,
           startY,
           distX,
@@ -224,20 +225,18 @@ class BlogIndex extends Component {
       var el = document.querySelector('.project-wrapper');
       swipedetect(el, function(swipedir){
           // swipedir contains either "none", "left", "right", "top", or "down"
+          console.log(swipedir);
           if(swippable === true){
-            if(swipedir === "right"){
-              suiv();
-            }
-            else if(swipedir === "left") {
-              prec();
-            }
+            switch (swipedir) {
+              case "right":
+                 suiv();
+                break;
+              case "left":
+                  prec();
+                break;
+              default:
+                
 
-            else if(swipedir === "up"){
-              prec();
-            }
-
-            else {
-              suiv();
             }
           }
       });
