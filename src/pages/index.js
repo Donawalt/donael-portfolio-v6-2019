@@ -89,6 +89,20 @@ class BlogIndex extends Component {
      }
    })
    ////////////////////////////////////////
+   document.querySelectorAll('.precB').forEach((el)=>{
+     el.addEventListener("click", function(){
+     if(swippable === true){
+         prec();
+     }
+   })});
+   ////////////////////////////////////////
+   document.querySelectorAll('.suivB').forEach((el)=>{
+     el.addEventListener("click", function(){
+     if(swippable === true){
+         suiv();
+     }
+   })});
+   ////////////////////////////////////////
    function figures() {
      for(let cpt=0; cpt< figure.length; cpt++){
          figure[cpt].removeAttribute("style");
@@ -173,73 +187,7 @@ class BlogIndex extends Component {
          }
        }
        ////////////////////////////////////////////////////////////////////////
-       //SWIPP
-       function swipedetect(el, callback){
-
-          var touchsurface = el,
-          swipedir,
-          dist,
-          startX,
-          startY,
-          distX,
-          distY,
-          threshold = 150, //required min distance traveled to be considered swipe
-          restraint = 100, // maximum distance allowed at the same time in perpendicular direction
-          allowedTime = 300, // maximum time allowed to travel that distance
-          elapsedTime,
-          startTime,
-          handleswipe = callback || function(swipedir){}
-
-          touchsurface.addEventListener('touchstart', function(e){
-              var touchobj = e.changedTouches[0]
-              swipedir = 'none'
-              dist = 0
-              startX = touchobj.pageX
-              startY = touchobj.pageY
-              startTime = new Date().getTime() // record time when finger first makes contact with surface
-              e.preventDefault()
-          }, false)
-
-          touchsurface.addEventListener('touchmove', function(e){
-              e.preventDefault() // prevent scrolling when inside DIV
-          }, false)
-
-          touchsurface.addEventListener('touchend', function(e){
-              var touchobj = e.changedTouches[0]
-              distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
-              distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
-              elapsedTime = new Date().getTime() - startTime // get time elapsed
-              if (elapsedTime <= allowedTime){ // first condition for awipe met
-                  if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint){ // 2nd condition for horizontal swipe met
-                      swipedir = (distX < 0)? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
-                  }
-                  else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
-                      swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
-                  }
-              }
-              handleswipe(swipedir)
-              e.preventDefault()
-          }, false)
-      }
-      //USAGE
-      var el = document.querySelector('.project-wrapper');
-      swipedetect(el, function(swipedir){
-          // swipedir contains either "none", "left", "right", "top", or "down"
-          console.log(swipedir);
-          if(swippable === true){
-            switch (swipedir) {
-              case "right":
-                 suiv();
-                break;
-              case "left":
-                  prec();
-                break;
-              default:
-                
-
-            }
-          }
-      });
+       //
 
       ////////////////////////////////////////////////////////////////////////
   }
@@ -269,7 +217,8 @@ class BlogIndex extends Component {
                 </h3>
               </div>
               <div className="dona-infos-container">
-                <div className="arianne"><span className="num"><p>{index+1}</p></span><div className="bar"></div><span className="total"></span></div>
+                <div className="arrow arianne"><span className="precB">⬅</span><span className="suivB">➡</span></div>
+                <div className="arianne" id="arianne"><span className="num"><p>{index+1}</p></span><div className="bar"></div><span className="total"></span></div>
                 <div className="group-voir">
                   <span className={"link-project-"+index+' '+'group-1'}>
                     <Link to={node.fields.slug}>Voir le Projet</Link>
