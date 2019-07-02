@@ -58,9 +58,9 @@ class BlogIndex extends Component {
       });
 
     ///////////////////////////////////////////////////////////////////////////
-    TweenLite.set(document.querySelectorAll('h3>span>p'),{y:100});
+    TweenLite.set(document.querySelectorAll('h3>span>p'),{y:210});
     function appearTitle(){
-      TweenLite.fromTo(document.querySelectorAll('h3>span>p'),2,{y:100},{y:0});
+      TweenLite.fromTo(document.querySelectorAll('h3>span>p'),2,{y:210},{y:0});
     }
 
     TweenLite.delayedCall(2, appearTitle);
@@ -114,8 +114,8 @@ class BlogIndex extends Component {
     function affichage(diapoNum) {
       figure[diapoNum].classList.add("ficheShow");
       figure[diapoNum].classList.remove("ficheEnter");
-      TweenLite.fromTo(document.querySelectorAll('.ficheShow h3>span>p'),1.5,{y:100},{y:0});
-      TweenLite.fromTo(document.querySelectorAll('.num >p'),0.5,{y:100},{y:0});
+      TweenLite.fromTo(document.querySelectorAll('.ficheShow h3>span>p'),1.5,{y:210},{y:0});
+      TweenLite.fromTo(document.querySelectorAll('.num >p'),0.5,{y:210},{y:0});
       swippable = true;
     }
 
@@ -126,8 +126,8 @@ class BlogIndex extends Component {
         {
            figure[diapoNum].classList.remove("ficheShow");
            figure[diapoNum].classList.add("ficheOut");
-           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:100});
-           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:100});
+           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:210});
+           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:210});
            figure[nbProject-1].classList.add("ficheEnter");
            swippable=false;
            setTimeout(()=>{
@@ -141,8 +141,8 @@ class BlogIndex extends Component {
          {
            figure[diapoNum].classList.remove("ficheShow");
            figure[diapoNum].classList.add("ficheOut");
-           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:100});
-           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:100});
+           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:210});
+           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:210});
            figure[diapoNum-1].classList.add("ficheEnter");
            swippable=false;
            setTimeout(()=>{
@@ -159,8 +159,8 @@ class BlogIndex extends Component {
          {
            figure[diapoNum].classList.remove("ficheShow");
            figure[diapoNum].classList.add("ficheOut");
-           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:100});
-           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:100});
+           TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:210});
+           TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:210});
            figure[0].classList.add("ficheEnter");
            swippable=false;
            setTimeout(()=>{
@@ -174,8 +174,8 @@ class BlogIndex extends Component {
          {
               figure[diapoNum].classList.remove("ficheShow");
               figure[diapoNum].classList.add("ficheOut");
-              TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:100});
-              TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:100});
+              TweenLite.to(document.querySelectorAll('.ficheOut h3>span>p, .ficheEnter h3>span>p, .fiche h3>span>p'),0.5,{y:210});
+              TweenLite.to(document.querySelectorAll('.num >p'),0.5,{y:210});
               figure[diapoNum+1].classList.add("ficheEnter");
               swippable=false;
               setTimeout(()=>{
@@ -260,7 +260,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC},  limit: 5) {
       edges {
         node {
           excerpt
