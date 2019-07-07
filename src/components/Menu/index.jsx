@@ -16,7 +16,7 @@ class Menu extends React.Component {
           <div className="dona-circle">
             <nav>
               <Link to="/project" name="projets">Projets</Link>
-              <a href="https://theblog.donaelwalter.com/" target="_blanck" name="blog">Blog</a>
+              <a href="https://blog.donaelwalter.com/" target="_blanck" name="blog">Blog</a>
               <Link to="/about" name="about">À propos</Link>
             </nav>
           </div>
