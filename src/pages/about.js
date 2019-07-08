@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
               Développeur front-end, Webdesigner de <strong>Valence</strong>.
               Je suis actuellement en recherche d'un <strong>contrat de professionnalisation</strong> dans le domaine du <strong>Webdesign</strong> et/ou du <strong>Développement Web</strong>, afin de poursuivre mes études au sein de l'école <a href="https://www.hetic.net/formations/bachelor-web/programme-bachelor-web" target="_blanck">@HETIC</a> en bachelor web.
             </p>
-            <a className="mailLink" href="mailto:business@donaelwalter.com">Contactez moi</a>
+            <a className="mailLink" href="mailto:contact@donaelwalter.com">Contactez moi</a>
           </article>
         </section>
       </Layout>
