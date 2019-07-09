@@ -2,6 +2,9 @@ body{
     overflow-x: hidden!important;
   }
 .Post{
+  table {
+    width: 100%;
+  }
   .header-project{
     .titleWrapper{
       height: fit-content;
@@ -59,6 +62,12 @@ body{
       #aPost{
         width: 75vw;
         margin: auto;
+        div.introP{
+          padding-left: 20%;
+          padding-right: 20%;
+          text-align: justify;
+
+        }
 
         img{
           width: 100%;
