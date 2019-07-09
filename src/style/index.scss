@@ -147,6 +147,7 @@ section.project-wrapper{
             height: 100vh;
             width: 100vw;
             transform: translate(0%,-12%);
+            display: contents;
             .featuredImage{
               filter: grayscale(100%);
               transform: scale(1.6);

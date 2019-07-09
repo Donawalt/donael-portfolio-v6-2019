@@ -11,9 +11,7 @@ type: UI
 ----------------------------------------------------------
 
 <div class="introP">
-Le portfolio représente un des meilleurs et des plus difficiles exercice pour tout créatifs.
-Il demande de se connaitre, de prendre du recul sur soi , sa vie et ses projets.
-Et parceque nous sommes en constante évolution, le portfolio lui aussi doit évoluer.
+Le portfolio représente un des meilleurs et des plus difficiles exercices pour tout créatif.Il demande de se connaitre, de prendre du recul sur soi, sa vie et ses projets.Et parce que nous sommes en constante évolution, le portfolio lui aussi doit évoluer.
 </div>
 
 ## Première maquettes
