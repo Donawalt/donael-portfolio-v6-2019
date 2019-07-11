@@ -1,7 +1,7 @@
 ---
 title: Henry Fessy
 date: '2019-04-28T00:18:15.284Z'
-featuredImage: './featured-image.png'
+featuredImage: './featured-image.jpg'
 type: site web
 ---
 
