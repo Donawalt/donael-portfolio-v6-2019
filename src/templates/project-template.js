@@ -55,18 +55,23 @@ class ProjectPostTemplate extends React.Component {
           <div  id="aPost" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <div className="suggestion-project">
+          {!next &&
+            <center>SORRY THERE ARE NOTHING NEXT</center>
+          }
+          {
+          next &&
+          <>
           <center>NEXT</center>
           <section>
-            {
-            next &&
             <Link to={next.fields.slug} rel="next" className="nextLink">
              {
                //next.frontmatter.title}
                next.frontmatter.title
              }
             </Link>
-            }
           </section>
+          </>
+          }
         </div>
       </section>
       </Layout>
