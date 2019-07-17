@@ -4,11 +4,11 @@ date: "2018-01-15T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Site Web
 ---
->Projet : Metiers de la Relation Client<br>
->Intitulé : Création  d'un site permettant de se renseigner sur les divers métiers relatif au relation client<br>
->Auteur : Donaël Walter & des étudiants du DUT MMI<br>
->Outils : Brackets & nos cerveaux<br>
->Langages :  Html, CSS, JS
+>Project : Metiers de la Relation Client<br>
+>Subject : Creation of a site to learn about the various professions related to customer relations<br>
+>Authors : Donaël Walter & some students of DUT MMI<br>
+>Tools : Brackets & nos cerveaux<br>
+>Laguages :  Html, CSS, JS
 ----------------------------------------------------------
 
 ## 01____COLOR

@@ -222,7 +222,7 @@ class BlogIndex extends Component {
                 <div className="numb arianne"><span className="num"><p>{index+1}</p></span><div className="bar"></div><span className="total"></span></div>
                 <div className="group-voir">
                   <span className={"link-project-"+index+' '+'group-1'}>
-                    <Link to={node.fields.slug}>Voir le Projet</Link>
+                    <Link to={node.fields.slug}>See</Link>
                   </span>
                 </div>
                 <div className="group-info">

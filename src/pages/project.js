@@ -26,7 +26,7 @@ class Project extends React.Component {
     const projects = get(this, 'props.data.allMarkdownRemark.edges')
     return(
       <Layout>
-      <SEO title="Projets" />
+      <SEO title="Projects" />
       <section className="sectionProject">
         <div className="contentProjectWrapper">
         {projects.map(({ node }, index) => {

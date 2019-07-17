@@ -15,13 +15,12 @@ class NotFound extends React.Component {
       <div className="contentGrid">
         <div>
           <h1>Maybe we lost our way.</h1>
-          <h2>On s'est peut-être égarés.</h2>
         </div>
         <div>
           <img src={'../404.png'} alt="404 Image" />
         </div>
         <div>
-          <Link to="/" >Retourner à l'acceuil </Link>
+          <Link to="/" >Back to the Home</Link>
         </div>
       </div>
       <div className="backgroundImgWrapper">

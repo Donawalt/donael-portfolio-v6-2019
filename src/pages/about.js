@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
   render(){
     return(
       <>
-      <SEO title='À propos' />
+      <SEO title='About' />
       <Layout>
         <section className="aboutSection">
           <div className="portraitWrapper">
@@ -32,14 +32,13 @@ class IndexPage extends React.Component {
           </div>
           <article className="article">
             <h1>
-              <div className="h1Wrapper"><p>Je suis</p></div>
+              <div className="h1Wrapper"><p>I am</p></div>
               <div className="h1Wrapper"><p>Donaël Walter</p></div>
             </h1>
             <p className="intro">
-              Développeur front-end, Webdesigner de <strong>Valence</strong>.
-              Je suis actuellement en recherche d'un <strong>contrat de professionnalisation</strong> dans le domaine du <strong>Webdesign</strong> et/ou du <strong>développement Web</strong>, afin de poursuivre mes études au sein de l'école <a href="https://www.hetic.net/formations/bachelor-web/programme-bachelor-web" target="_blanck">@HETIC</a> en bachelor web.
+              Front-end developer, Webdesigner. I am currently looking for a <strong>study contract</strong> in the field of <strong>Webdesign</strong> and/or <strong>Web development</strong>, in order to continue my studies at <a href="https://www.hetic.net/formations/bachelor-web/programme-bachelor-web" target="_blanck">@HETIC</a> school in web bachelor.
             </p>
-            <a className="mailLink" href="mailto:contact@donaelwalter.com">Contactez moi</a>
+            <a className="mailLink" href="mailto:contact@donaelwalter.com">Contact me</a>
           </article>
         </section>
       </Layout>

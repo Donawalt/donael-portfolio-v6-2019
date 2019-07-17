@@ -5,15 +5,15 @@ featuredImage: "./featured-image.jpg"
 type: UI
 ---
 
-> Projet : Portfolio Axel Dos Santos <br>
+> Project : Portfolio Axel Dos Santos <br>
 > Type : UI/UX Design <br>
-> Auteur : Donaël Walter<br>Outils : Figma, React
+> Author : Donaël Walter<br>Outils : Figma, React
 
 <div class="introP">
-  Dans le but d'améliorer mes compétences et de tester le logiciel Figma, j'ai proposé à un de mes camarades de L'iut de Dijon, de lui faire son portfolio, ci-dessous voici les premières maquettes.
+  In order to improve my skills and test the Figma software, I proposed to one of my classmates from L'iut de Dijon, to make him his portfolio, below are the first models.
 </div>
 
-## Première maquettes
+## First models
 
 ![Loader](./0001-min.jpg)
 <br></br>
@@ -29,4 +29,4 @@ type: UI
 <br></br>
 ![Loader](./0007-min.jpg)
 
-Le site n'est pas encore en ligne .
+The website is not yet online.

@@ -5,18 +5,17 @@ featuredImage: './featured-image.jpg'
 type: site web
 ---
 
-> Projet : Henry Fessy<br>
-> Développement Front : Donaël Walter & VINIUM LUXURY WEBDESIGN<br>
-> Création graphique : <a target="_blanck" href="https://www.vinium.com/">VINIUM LUXURY WEBDESIGN</a><br>
-> Outils : Gulp, Php Storm, Avocode, Scss<br>
+> Project : Henry Fessy<br>
+> Front : Dconaël Walter & VINIUM LUXURY WEBDESIGN<br>
+> Graphic design : <a target="_blanck" href="https://www.vinium.com/">VINIUM LUXURY WEBDESIGN</a><br>
+> Tools : Gulp, Php Storm, Avocode, Scss<br>
 
 ---
 
-## Aperçus
-
-![Desktop](./Desk.jpg)
+## Overview
+![Desktop](./Desk.jpg)  
 <br></br>
 ![Mobile](./Mobile.jpg)
 
-Voici le liens pour visiter le site : <a target="_blanck" href="https://www.henryfessy.com/?_locale=fr">Henry Fessy</a><br/>
-Merci à toute l'équipe de <a target="_blanck" href="https://www.vinium.com/">Vinium Luxury Webdesign</a>
+Here the link to the website : <a target="_blanck" href="https://www.henryfessy.com/?_locale=fr">Henry Fessy</a><br/>
+Thanks for the team of <a target="_blanck" href="https://www.vinium.com/">Vinium Luxury Webdesign</a>

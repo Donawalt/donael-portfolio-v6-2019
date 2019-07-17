@@ -2,14 +2,14 @@
 title: "NOCE"
 date: "2018-06-10T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
-type: Graphisme
+type: Graphic Design
 ---
->Projet : Noce Luminaire<br>
->Intitulé : Réalisation d'une identitée visuelle<br>
->Auteur : Donaël Walter <br>
->Outils : Adobe Photoshop CC, Adobe Indesign CC, Adobe Illustrator CC<br>
+>Project : Noce Luminaire<br>
+>Subject : Creation of a visual identity<br>
+>Author : Donaël Walter <br>
+>Tools : Adobe Photoshop CC, Adobe Indesign CC, Adobe Illustrator CC<br>
 ----------------------------------------------------------
-## Mon rendu
+## My rendering
 ![lerp](./cgn/cgn-01.jpg)
 <br></br>
 ![fest](./cgn/cgn-02.jpg)
