@@ -1,9 +1,9 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import {TweenLite, TimelineLite} from 'gsap'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet';
 import SEO from '../components/seo'
-import 'mailgo';
 
 
 import '../style/about.scss'
@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
       <Layout>
         <section className="aboutSection">
           <div className="portraitWrapper">
-            <img src={'portrait.jpg'} className="portraitPicture" loading="lazy"></img>
+            <img src={withPrefix('portrait.jpg')} className="portraitPicture" loading="lazy"></img>
           </div>
           <article className="article">
             <h1>
