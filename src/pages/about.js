@@ -3,6 +3,7 @@ import {TweenLite, TimelineLite} from 'gsap'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet';
 import SEO from '../components/seo'
+import 'mailgo';
 
 
 import '../style/about.scss'
