@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import '../style/notFound.scss'
@@ -12,6 +13,9 @@ class NotFound extends React.Component {
   render(){
     return(
       <Layout>
+        <Helmet>
+          <title>404 - Donaël WALTER</title>
+        </Helmet>
       <div className="contentGrid">
         <div>
           <h1>Maybe we lost our way.</h1>
