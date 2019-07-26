@@ -31,8 +31,6 @@
       text-transform: uppercase;
       font-family: serif;
       color: transparent;
-      text-stroke: 2px white;
-      -webkit-text-stroke: 2px white;
       .h1Wrapper{
         height: fit-content;
         overflow: hidden;
@@ -46,7 +44,6 @@
         }
       div:nth-child(2){
         font-family: sans-serif;
-        color: white;
         text-stroke: 0px;
         -webkit-text-stroke: 0px;
         }
@@ -65,7 +62,22 @@
   .white-mode{
     article{
       h1{
-        color: black;
+        text-stroke: 2px black;
+        -webkit-text-stroke: 2px black;
+        div:nth-child(2){
+          color: black;
+          }
+      }
+    }
+  }
+  .black-mode{
+    article{
+      h1{
+        text-stroke: 2px white;
+        -webkit-text-stroke: 2px white;
+        div:nth-child(2){
+          color: white;
+          }
       }
     }
   }
