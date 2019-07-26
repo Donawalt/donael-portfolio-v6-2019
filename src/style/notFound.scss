@@ -2,7 +2,6 @@
 .backgroundImgWrapper{
   height: 100vh;
   width: 100vw;
-  background-image: url('/../background-404.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -21,7 +20,13 @@
     flex-direction: column;
     h1{
       font-size: 4em;
-      color: white;
+      color: red;
+      text-transform: uppercase;
+      @at-root .white-mode {
+        .contentGrid>div>h1{
+          color:red;
+        }
+      }
     }
     h2{
       font-family: sans-serif;
@@ -31,6 +36,17 @@
     }
     img{
       width: 43vw;
+    }
+    .backlink{
+      padding: 10px;
+      border-radius: 4px;
+      background-color: blue;
+      transition: 500ms;
+      color: white;
+      &:hover{
+        transition: 500ms;
+        background-color: darkblue;
+      }
     }
   }
 }

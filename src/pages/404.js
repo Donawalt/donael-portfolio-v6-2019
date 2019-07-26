@@ -17,10 +17,10 @@ class NotFound extends React.Component {
           <h1>Maybe we lost our way.</h1>
         </div>
         <div>
-          <img src={'../404.png'} alt="404 Image" />
+          <img src={'../404.svg'} alt="404 Image" />
         </div>
         <div>
-          <Link to="/" >Back to the Home</Link>
+          <Link className="backlink" to="/" >Back to Home</Link>
         </div>
       </div>
       <div className="backgroundImgWrapper">
