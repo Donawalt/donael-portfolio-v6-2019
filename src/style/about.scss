@@ -30,7 +30,9 @@
       font-size: 6em;
       text-transform: uppercase;
       font-family: serif;
-      color: white;
+      color: transparent;
+      text-stroke: 2px white;
+      -webkit-text-stroke: 2px white;
       .h1Wrapper{
         height: fit-content;
         overflow: hidden;
@@ -44,6 +46,9 @@
         }
       div:nth-child(2){
         font-family: sans-serif;
+        color: white;
+        text-stroke: 0px;
+        -webkit-text-stroke: 0px;
         }
       }
       .intro{

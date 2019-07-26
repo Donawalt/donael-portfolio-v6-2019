@@ -32,6 +32,9 @@ section.project-wrapper{
               justify-content: center;
               align-items: center;
               font-size: 100px;
+              color: transparent;
+              text-stroke: 2px white;
+              -webkit-text-stroke: 2px white;
               span{
                 overflow: hidden;
                 p{
