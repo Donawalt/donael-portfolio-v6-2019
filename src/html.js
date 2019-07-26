@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script src="https://unpkg.com/mailgo@0.6.9/dist/mailgo.min.js" defer></script>
+        <script src={'mailgo.min.js'} defer></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes} className="black-mode">
