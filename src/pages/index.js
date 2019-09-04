@@ -203,7 +203,7 @@ class BlogIndex extends Component {
         <Loader/>
         <Helmet>
           <title>Portfolio | Donaël Walter</title>
-          <meta name="description" content="A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End ..."/>
+          <meta name="description" content="I am an Freelance Webdesigner and Front-end developper. I am also a student at HÉTIC and Webdesigner at OPSONE "/>
         </Helmet>
         <Layout>
         <section className="project-wrapper">

@@ -37,7 +37,7 @@ class IndexPage extends React.Component {
               <div className="h1Wrapper"><p>Donaël Walter</p></div>
             </h1>
             <p className="intro">
-              Front-end developer, Webdesigner. I am currently looking for a <strong>study contract</strong> in the field of <strong>Webdesign</strong> and/or <strong>Web development</strong>, in order to continue my studies at <a href="https://www.hetic.net/formations/bachelor-web/programme-bachelor-web" target="_blanck">@HETIC</a> school in web bachelor.
+              Front-end developer and Webdesigner. I work at <a href="https://opsone.net" target="_blank">OPSONE</a> as a Junior Web Designer. I study at <a href="https://www.hetic.net" target="_blank">HÉTIC</a> in Web development and Webdesign.
             </p>
             <a className="mailLink" href="mailto:contact@donaelwalter.com">Contact me</a>
           </article>

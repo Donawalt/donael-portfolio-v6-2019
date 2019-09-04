@@ -33,7 +33,7 @@ class Loader extends React.Component {
           <div className="dona-circle">
             <div className="dona-loader-title-groupe">
               <h1 className="dona-h-1">Donaël Walter</h1>
-              <h2 className="dona-h-2">Creative developper & Product Designer</h2>
+              <h2 className="dona-h-2">Creative developper & Webdesigner</h2>
               <i>Use keyboard arrows to navigate</i>
             </div>
           </div>
