@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import {TweenLite, TimelineLite} from 'gsap'
 import get from 'lodash/get'
@@ -33,7 +32,6 @@ class ProjectPostTemplate extends React.Component {
   }
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pageContext
 
     return (
