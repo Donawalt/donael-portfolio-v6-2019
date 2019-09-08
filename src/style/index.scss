@@ -73,7 +73,8 @@ section.project-wrapper{
                                 margin-top: 5px;
                                 height: 0px;
                                 width:100px;
-                                border: 2px solid gray;
+                                border: 2px solid white;
+                                transition: 500ms;
                               }
                             }
             .group-voir{
@@ -289,6 +290,7 @@ section.project-wrapper{
             h3{
               color: transparent;
               -webkit-text-stroke: 2px white;
+              transition: 500ms;
             }
           }
           .dona-circle-container{
@@ -305,6 +307,8 @@ section.project-wrapper{
           h3{
             color: transparent;
             -webkit-text-stroke: 2px black;
+            transition: 500ms;
+
           }
         }
         .dona-circle-container{
@@ -317,4 +321,8 @@ section.project-wrapper{
           color: black;
           transition: 500ms;
         }   
+        section.project-wrapper .fiche .dona-infos-project .dona-infos-container .arianne .bar{
+          border: 2px solid black;
+          transition: 500ms;
+        }
         }
