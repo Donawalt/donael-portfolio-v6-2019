@@ -9,12 +9,11 @@
     align-items:center;
     height: 100vh;
     .portraitPicture{
-      transform: rotate(-90deg);
       height: 110vh;
       filter: grayscale(100%);
       transition: 1000ms;
       &:hover{
-        transform: rotate(-85deg) scale(1.1);
+        transform: rotate(-5deg) scale(1.1);
         transition: 2000ms;
         filter: grayscale(10%);
       }
