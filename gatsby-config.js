@@ -70,9 +70,10 @@ module.exports = {
         name: `Donaël WALTER`,
         short_name: `Donaël WALTER`,
         start_url: `/`,
-        background_color: `#bdbdbd`,
+        background_color: `#ffffff`,
         theme_color: `#9a2022`,
-        display: `minimal-ui`,
+        display: `fullscreen`,
+        orientation: `portrait`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
