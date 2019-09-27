@@ -99,12 +99,18 @@ section.project-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #00000066;
+            transition: 200ms;
+
+            &:hover{
+              background-color: crimson;
+              transition: 200ms;
+            }
 
             a {
               color: white;
               text-align: center;
               font-weight: bold;
+              font-size: 1.2em;
             }
           }
         }
@@ -376,5 +382,9 @@ section.project-wrapper {
   section.project-wrapper .fiche .dona-infos-project .dona-infos-container .arianne .bar {
     border: 2px solid black;
     transition: 500ms;
+  }
+
+  section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-voir span a {
+    color:black;
   }
 }
