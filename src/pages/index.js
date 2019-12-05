@@ -221,9 +221,11 @@ class BlogIndex extends Component {
                 <div className="arrow arianne"><span className="precB">{'<'}</span><span className="suivB">{'>'}</span></div>
                 <div className="numb arianne"><span className="num"><p>{index+1}</p></span><div className="bar"></div><span className="total"></span></div>
                 <div className="group-voir">
-                  <span className={"link-project-"+index+' '+'group-1'}>
-                    <Link to={node.fields.slug}>See</Link>
-                  </span>
+                  <Link to={node.fields.slug}>
+                    <span className={"link-project-"+index+' '+'group-1'}>
+                      See
+                    </span>
+                  </Link>  
                 </div>
                 <div className="group-info">
                   <span className="group">

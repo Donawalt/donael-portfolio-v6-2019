@@ -10,6 +10,7 @@
   top: 0;
   z-index: 20000;
   overflow: hidden;
+  animation: apparition 500ms forwards ease-in;
 
   div {
     display: flex;
@@ -69,6 +70,20 @@
   }
 }
 
+
+#Loader.reverse{
+  animation: apparition 800ms ease-out reverse forwards;
+  transition: 500ms;
+}
+
+@keyframes apparition {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:1;
+  }
+}
 @media all and (max-width: 480px){
   .dona-loader-container{
     .dona-loader-title-groupe{

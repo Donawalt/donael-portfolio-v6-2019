@@ -100,17 +100,13 @@ section.project-wrapper {
             justify-content: center;
             align-items: center;
             transition: 200ms;
+            color:white;
+            font-weight: bold;
+            text-transform: uppercase;
 
             &:hover{
               background-color: crimson;
               transition: 200ms;
-            }
-
-            a {
-              color: white;
-              text-align: center;
-              font-weight: bold;
-              font-size: 1.2em;
             }
           }
         }
@@ -122,7 +118,7 @@ section.project-wrapper {
 
           span {
             text-align: end;
-            color: #f00;
+            color: rgb(235, 235, 235);
             font-family: sans-serif;
 
             .category {
@@ -197,7 +193,10 @@ section.project-wrapper {
 
   .ficheOut {
     z-index: 2000;
-
+    transition: 100ms;
+     .dona-infos-project .dona-infos-container .group-info span {
+      display: none;
+    }
     .background_thumbnail {
       opacity: 0;
       transition: 500ms;
@@ -384,7 +383,11 @@ section.project-wrapper {
     transition: 500ms;
   }
 
-  section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-voir span a {
-    color:black;
+  main > section > figure.fiche.ficheShow > div.dona-infos-project > div.dona-infos-container > div.group-info > span {
+    color: black;
+  }
+
+  section.project-wrapper .fiche .dona-infos-project .dona-infos-container .group-voir span{
+    color: black;
   }
 }

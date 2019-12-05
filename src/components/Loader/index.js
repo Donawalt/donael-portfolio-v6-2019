@@ -13,9 +13,9 @@ class Loader extends React.Component {
         document.querySelector('#Loader').style.display = "none";
     }
     .bind(this),
-    3000);
+    2600);
     setTimeout(function() {
-        document.querySelector('#Loader').style.opacity = "0";
+        document.querySelector('#Loader').classList.add("reverse");
     }
     .bind(this),
     2500);
@@ -23,7 +23,7 @@ class Loader extends React.Component {
         document.querySelector('.Layout').style.display="";
     }
     .bind(this),
-    2000);
+    2500);
   }
 
   render(){
@@ -33,7 +33,7 @@ class Loader extends React.Component {
           <div className="dona-circle">
             <div className="dona-loader-title-groupe">
               <h1 className="dona-h-1">Donaël Walter</h1>
-              <h2 className="dona-h-2">Creative developper & Webdesigner</h2>
+              <h2 className="dona-h-2">Front-End Developper & UI Designer</h2>
               <i>Use keyboard arrows to navigate</i>
             </div>
           </div>
