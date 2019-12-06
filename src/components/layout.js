@@ -76,7 +76,7 @@ class Layout extends React.Component {
           <Helmet link={[
               { rel: "icon", type: "image/png", href: `${favicon}` },
           ]}/>
-          <section className="Layout">
+          <section className="Layout" >
             <Header siteTitle={data.site.siteMetadata.title} />
             <div>
               <main>{this.props.children}</main>

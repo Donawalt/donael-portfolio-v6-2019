@@ -8,13 +8,13 @@
   transition: 500ms;
   position: fixed;
   top: 0;
-  z-index: -10;
+  z-index: -100;
   overflow: hidden;
 
   &.is-active-menu {
-    z-index: 5000;
+    z-index: 2000;
     opacity: 1;
-    transition: 500ms;
+    transition: 800ms;
   }
 
   div {
