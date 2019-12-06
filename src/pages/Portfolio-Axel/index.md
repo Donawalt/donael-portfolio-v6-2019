@@ -10,7 +10,9 @@ type: UI
 > Author : Donaël Walter<br>Outils : Figma, React
 
 <div class="introP">
-  In order to improve my skills and test the Figma software, I proposed to one of my classmates from L'iut de Dijon, to make him his portfolio, below are the first models.
+  In order to discover the graphic design software Figma, I suggested to a classmate to think about his portfolio. Here are the models I made when I first used Figma.
+
+  Axel Dos Santos is a person with whom I have studied for the last two years at the IUT in Dijon, it is in his company that I have worked a lot on photography and image. He is currently in film school in Paris. 
 </div>
 
 ## First models
@@ -29,4 +31,6 @@ type: UI
 <br></br>
 ![Loader](./0007-min.jpg)
 
-The website is not yet online.
+I started working on the development of his site using the same technologies as my own portfolio, i.e. GatsbyJS and React. In case Axel would like to become independent, I will work more seriously on his portfolio, especially in terms of UX Design.
+
+For the moment here are his instagram: <a href="https://www.instagram.com/axe2santos/" target="blanck"><b>https://www.instagram.com/axe2santos/</b></a>

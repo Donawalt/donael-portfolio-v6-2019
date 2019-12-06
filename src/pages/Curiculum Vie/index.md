@@ -8,6 +8,11 @@ type: Vidéo
 >Author : Donaël Walter<br>
 >Tools : After effect CC<br>
 ----------------------------------------------------------
+<div class="introP">
+    Here is my Curiculum Vitae in video, this is my first work in motion design with after effect.<br/>
+    Motion design is one of the skills I want to develop in the near future 
+</div>
+
 ## My cv
 
 <center>

@@ -38,6 +38,6 @@ type: UI
 <br></br>
 <br></br>
 
-Portfolio v1 : <a target='_blanck' href="https://portfoliov1.donaelwalter.com/"> click here </a>
+Portfolio v1 : <a target='_blanck' href="https://portfoliov1.donaelwalter.com/"><b> click here </b></a>
 <br></br>
-Portfolio v2 : <a target='_blanck' href="https://portfoliov2.donaelwalter.com/"> click here </a>
+Portfolio v2 : <a target='_blanck' href="https://portfoliov2.donaelwalter.com/"> <b>click here</b> </a>

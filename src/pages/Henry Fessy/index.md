@@ -2,7 +2,7 @@
 title: Henry Fessy
 date: '2019-04-28T00:18:15.284Z'
 featuredImage: './featured-image.jpg'
-type: site web
+type: Web Development
 ---
 
 > Project : Henry Fessy<br>
@@ -11,11 +11,15 @@ type: site web
 > Tools : Gulp, Php Storm, Avocode, Scss<br>
 
 ---
+<div class="introP">
+    A site that I designed during my first internship of three month as a front-end developer at the Vinium Luxury Webdesign agency specializing in luxury website design.
+    The client, Henry Fessy a great wine estate.
+</div>
 
 ## Overview
 ![Desktop](./Desk.jpg)  
 <br></br>
 ![Mobile](./Mobile.jpg)
 
-Here the link to the website : <a target="_blanck" href="https://www.henryfessy.com/?_locale=fr">Henry Fessy</a><br/>
-Thanks for the team of <a target="_blanck" href="https://www.vinium.com/">Vinium Luxury Webdesign</a>
+Here the link to the website : <a target="_blanck" href="https://www.henryfessy.com/?_locale=fr"><b>Henry Fessy</b></a><br/>
+Thanks for the team of <a target="_blanck" href="https://www.vinium.com/"><b>VINIUM LUXURY WEBDESIGN</a>

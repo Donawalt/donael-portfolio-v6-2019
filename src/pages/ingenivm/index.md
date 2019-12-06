@@ -11,7 +11,13 @@ type: UI
 > Outils : Figma, VueJS
 
 <div class="introP">
-  In order to improve my skills, I have decided to make the INGNIVM portfolio.
+  INGENIVM is a group of three creative people who studied with me for two years. They do motion design, graphic design and music. 
+  The group is composed of: <br/>
+
+  - Benjamin Gay 
+  - Timothée Robert 
+  - Charlie Jannet
+
 </div>
 
 ## The Project
@@ -24,3 +30,13 @@ type: UI
 ![Loader](./c4-min.png)
 <br></br>
 ![Loader](./c5-min.png)
+
+I designed this site mainly to test tools and build skills. <br/>
+For the design I used mainly the Figma software. <br/>
+And for the development  of the site I used Nuxt and VueJS . <br/>
+This is the first project I have done with VueJs 
+
+You can try the site here : <a href="https://ingenium-portfolio.netlify.com" target="_blanck"><b>INGENIVM PORTFOLIO</b></a>
+
+Be careful this site is not perfect, I plan to work on it again in the future. 
+If you want, you can tell me your opinion !
