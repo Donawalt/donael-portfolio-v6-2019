@@ -19,9 +19,11 @@ class BlogIndex extends Component {
 
   constructor(){
     super();
+
   }
 
   componentDidMount(){
+    let scroll = document.querySelector('body').style.overflow = "hidden";
     const projectWrapper = document.querySelector('.project-wrapper');
     let figure = document.querySelectorAll('.fiche');
     let nbProject = figure.length;
@@ -33,7 +35,6 @@ class BlogIndex extends Component {
     for(let cpt=0; cpt< d.length; cpt++){
         d[cpt].innerHTML= t;
      };
-
     ///////////////////////////////////////////////////////////////////////////
       let projectLinkContainer =  document.querySelectorAll('.group-1, .group-1 a');
       let featuredImages = document.querySelectorAll('.featuredImage');
@@ -77,17 +78,17 @@ class BlogIndex extends Component {
       }
    }
    /////////////////////////////////////////
-   window.addEventListener("wheel", function(event){
-     event.preventDefault();
-     if(swippable === true){
-       if(event.deltaY>0){
-         suiv();
-       }
-       else {
-         prec();
-       }
-     }
-   })
+   document.getElementById('project-content').addEventListener("wheel", function(event){
+    event.preventDefault();
+    if(swippable === true){
+      if(event.deltaY>0){
+        suiv();
+      }
+      else {
+        prec();
+      }
+    }
+  });
    ////////////////////////////////////////
    document.querySelectorAll('.precB').forEach((el)=>{
      el.addEventListener("click", function(){
@@ -194,6 +195,9 @@ class BlogIndex extends Component {
 
   componentWillUnmount(){
     document.querySelector('body').style.overflow = "scroll";
+    document.getElementById('project-content').addEventListener("wheel", function (event) {
+        event.stopPropagation();
+    }, true);
   }
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
@@ -206,7 +210,7 @@ class BlogIndex extends Component {
           <meta name="description" content="I am an Freelance Webdesigner and Front-end developper. I am also a student at HÉTIC and Webdesigner at OPSONE "/>
         </Helmet>
         <Layout>
-        <section className="project-wrapper">
+        <section className="project-wrapper" id="project-content">
       {posts.map(({ node }, index) => {
         const title = get(node, 'frontmatter.title') || node.fields.slug
         return (
