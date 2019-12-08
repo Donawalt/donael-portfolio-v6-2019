@@ -8,6 +8,7 @@ import SEO from '../components/seo'
 
 import Layout from '../components/layout'
 import '../style/project.scss'
+import FooterC from '../components/FooterC'
 class Project extends React.Component {
   componentDidMount(){
     let sectionProject = document.querySelector('.sectionProject');
@@ -56,6 +57,7 @@ class Project extends React.Component {
         })}
         </div>
       </section>
+      <FooterC/>
       </Layout>
     )
   }

@@ -13,9 +13,12 @@ class Burger extends React.Component {
     document.querySelector('div.hamburger').classList.toggle("is-active");
     if(document.querySelector('div.hamburger').classList.contains('is-active')){
       document.querySelector('#Menu').classList.add('is-active-menu');
+      document.querySelector('main').classList.add('is-active-menu');
     }
     else{
         document.querySelector('#Menu').classList.remove('is-active-menu');
+        document.querySelector('main').classList.remove('is-active-menu');
+      
     }
   }
   render(){

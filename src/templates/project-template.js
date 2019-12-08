@@ -11,6 +11,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import '../style/post.scss'
+import FooterC from '../components/FooterC'
 
 class ProjectPostTemplate extends React.Component {
   constructor(){
@@ -72,6 +73,7 @@ class ProjectPostTemplate extends React.Component {
           }
         </div>
       </section>
+      <FooterC/>>
       </Layout>
     )
   }

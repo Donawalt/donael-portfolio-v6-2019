@@ -1,0 +1,106 @@
+div.footerC{
+    height: 50vh;
+    color: white ;
+
+    @media screen and (max-width:630px) {
+        display: none;
+    }
+    h4.footerC-title{
+    font-size: 150px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    text-transform: uppercase;
+    height: 25vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    .footer-C-title-content {
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        position: absolute;
+      }
+      
+      .footer-C-title-content span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: slide 40s linear infinite;
+        animation-delay: -20s;
+      }
+      
+      .fctc2 span {
+        animation-delay: 0s;
+      }
+      
+      @keyframes slide {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(-100%, 0);
+        }
+      }
+    }
+    hr{
+        margin-top: 0px;
+        height: 2px;
+        background-color: white;
+        transition: 500ms;
+    }
+    section{
+        padding-left: 36px;
+        padding-right: 36px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        a{
+            transition: 250ms;
+            font-weight: bold;
+            &:hover{
+                color:red;
+                transition: 500ms;
+            }
+        }
+        div h5 {
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0.05em;;
+            margin-bottom: 0.2em;
+            font-size: 2em;
+            font-weight: lighter;
+        }
+        div {
+            li,ul{
+                margin: 0px;
+                padding:0px;
+                list-style: none;
+                font-size: 1.25em;
+            }
+            &:nth-child(2){
+                text-align:center;
+                ul{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            &:nth-child(3){
+                text-align: right;
+            }
+        }
+    }
+}
+
+.white-mode{
+    div.footerC{
+        h4.footerC-title{
+            -webkit-text-stroke: 2px rgb(0, 0, 0);
+            transition: 500ms;
+        }
+        hr{
+            background-color: black;
+        }
+    }
+}
+

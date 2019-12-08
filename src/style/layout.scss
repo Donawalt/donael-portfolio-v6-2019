@@ -9,6 +9,14 @@ body{
     text-decoration: none;
     font-family: sans-serif;
   }
+
+  .Post{
+    animation: apparition forwards 500ms;
+  }
+  main.is-active-menu{
+    opacity: 0;
+    transition: 500ms;
+  }
 }
 .Layout{
   overflow: hidden;
@@ -64,3 +72,12 @@ body{
   }
 }
 @media all and (max-width: 480px) {   }
+
+@keyframes apparition{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
