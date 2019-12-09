@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100vw;
   background-color: #000;
+  color:white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,6 @@
       .dona-h-1 {
         height: 52px;
         width: 392px;
-        color: #FFF;
         font-family: Arial;
         font-size: 40px;
         line-height: 45px;
@@ -39,7 +39,6 @@
       .dona-h-2 {
         height: 54px;
         width: 451px;
-        color: #FFF;
         font-family: Arial;
         font-size: 20px;
         line-height: 28px;
@@ -89,5 +88,12 @@
     .dona-loader-title-groupe{
       transform: scale(0.8);
     }
+  }
+}
+
+.white-mode{
+  #Loader{
+    background-color: white;
+    color:black;
   }
 }
