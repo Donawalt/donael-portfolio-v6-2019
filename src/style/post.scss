@@ -63,11 +63,21 @@ body{
       #aPost{
         width: 75vw;
         margin: auto;
+        font-size: 20px;
+        @media screen and (max-width:700px){
+          width: 95vw;
+        }
+        @media screen and (max-width:300px){
+          width: 99vw;
+        }
         div.introP{
           padding-left: 20%;
           padding-right: 20%;
           text-align: justify;
-
+          @media screen and (max-width:700px){
+            padding-left: 1%;
+            padding-right: 1%;
+          }
         }
 
         img{

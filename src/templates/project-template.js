@@ -73,7 +73,7 @@ class ProjectPostTemplate extends React.Component {
           }
         </div>
       </section>
-      <FooterC/>>
+      <FooterC/>
       </Layout>
     )
   }
