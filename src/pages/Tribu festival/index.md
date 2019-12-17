@@ -3,6 +3,7 @@ title: Tribu Festival
 date: "2017-11-30T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Graphic Design
+description: "Design of a fictional poster to promote an event" 
 ---
 >Project : Tribu Festival <br>
 >Subject : Design of a fictional poster to promote an event <br>

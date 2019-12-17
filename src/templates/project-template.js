@@ -34,11 +34,11 @@ class ProjectPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const { previous, next } = this.props.pageContext
-
+    console.log(post)
     return (
         <Layout>
         <section className="Post" id="BlogPost">
-        <SEO title={post.frontmatter.title} lang="fr" description={post.html}/>
+        <SEO title={post.frontmatter.title} lang="fr" description={post.frontmatter.description}/>
         <div className="header-project">
           <div className="titleWrapper"><h1 className="titleProject">{post.frontmatter.title}</h1></div>
           <div className="background_thumbnail">
@@ -94,6 +94,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
         featuredImage {
             childImageSharp{
               sizes(maxWidth: 630) {

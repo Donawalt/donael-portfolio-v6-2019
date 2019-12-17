@@ -3,6 +3,7 @@ title: Cauchemar
 date: "2018-12-22T00:17:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Vidéo
+description: "Nightmare a short film designed for learning about depression and drugs "
 ---
 >Project : Cauchemar<br>
 >Type : Court métrage<br>

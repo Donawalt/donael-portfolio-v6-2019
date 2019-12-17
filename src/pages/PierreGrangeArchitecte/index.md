@@ -3,7 +3,8 @@ title: Pierre Grange
 date: "2019-06-02T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: UI/UX
----
+description: "Pierre Grange is a young Dijon/Auxerois architect, who called on our studio to design a visual identity and portfolio for this work. With the constraint of providing everything at the end of the project, and giving him the ability to manage his own content."
+--- 
 
 > Project : Pierre Grange Architecte <br>
 > Type : UI/UX Design <br>

@@ -3,6 +3,7 @@ title: Axel Dos Santos
 date: "2019-06-03T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: UI
+description: "In order to discover the graphic design software Figma, I suggested to a classmate to think about his portfolio. Here are the models I made when I first used Figma. Axel Dos Santos is a person with whom I have studied for the last two years at the IUT in Dijon, it is in his company that I have worked a lot on photography and image. He is currently in film school in Paris. "
 ---
 
 > Project : Portfolio Axel Dos Santos <br>

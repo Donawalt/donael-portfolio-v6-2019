@@ -3,6 +3,7 @@ title: Inception
 date: "2017-10-19T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Graphisme
+description: "My first work in graphic design . Here my interpetation of the film Inception by Christopher Nolan."
 ---
 >Project : INCEPTION<br>
 >Author : Donaël Walter <br>

@@ -3,6 +3,7 @@ title: INGENIVM
 date: "2019-09-06T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: UI
+description: "INGENIVM is a group of three creative people who studied with me for two years. They do motion design, graphic design and music.The group is composed of: Benjamin Gay, Timothée Robert, Charlie Jannet"
 ---
 
 > Project : Portfolio INGENIVM <br>

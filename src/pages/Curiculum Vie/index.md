@@ -3,6 +3,7 @@ title: Curriculum Vitae
 date: "2018-12-22T00:17:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Vidéo
+description: "Short work made with After Effect at school, in the purpose to introduce myself and my work"
 ---
 >Project : CV en motion design<br>
 >Author : Donaël Walter<br>

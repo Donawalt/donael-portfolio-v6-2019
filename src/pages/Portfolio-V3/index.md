@@ -3,6 +3,7 @@ title: Portfolio V3
 date: "2019-05-07T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: UI
+description: "The portfolio is one of the best and most difficult exercises for any creative person, it requires getting to know oneself, taking a step back on oneself, one's life and one's projects, and because we are in constant evolution, the portfolio too must evolve."
 ---
 >Project : Portfolio V3 <br>
 >Type : UI/UX Design <br>

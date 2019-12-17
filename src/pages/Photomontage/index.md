@@ -3,6 +3,7 @@ title: Photomontage
 date: "2018-04-22T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Graphic Design
+description: "Design of a photo montage and control of the photography in the studio"
 ---
 >Project : Photomontage<br>
 >Subject : Design of a photo montage and control of the photography in the studio<br>
