@@ -34,7 +34,6 @@ class ProjectPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const { previous, next } = this.props.pageContext
-    console.log(post)
     return (
         <Layout>
         <section className="Post" id="BlogPost">

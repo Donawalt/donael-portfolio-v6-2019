@@ -68,7 +68,6 @@ class BlogIndex extends Component {
     ///////////////////////////////////////////////////////////////////////////
     window.onkeyup = function(e) {
       var key = e.keyCode ? e.keyCode : e.which;
-      console.log(key);
       if(swippable === true){
         if (key === 37 || key === 81 ) {
          prec();
