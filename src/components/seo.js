@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `fr`,
   meta: [],
-  description: `A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End ...`,
+  description: `Front-end Developer and UI/UX Designer in Paris. I work at OPSONE as a Junior Web Designer. I study at HÉTIC in Web development and Webdesign. I'm also available in freelancing.`,
 }
 
 SEO.propTypes = {
