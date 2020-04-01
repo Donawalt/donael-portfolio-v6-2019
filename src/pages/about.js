@@ -2,7 +2,6 @@ import React from 'react'
 import { withPrefix } from 'gatsby'
 import {TweenLite, TimelineLite} from 'gsap'
 import Layout from '../components/layout'
-import Helmet from 'react-helmet';
 import SEO from '../components/seo'
 
 
